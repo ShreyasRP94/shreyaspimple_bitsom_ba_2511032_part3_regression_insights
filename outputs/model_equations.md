@@ -11,7 +11,7 @@ Four regression models were developed to evaluate the relationship between month
 ### Regression Equation
 
 ```text
-Sales = 560,777.3454 + 2.1296 × Marketing Spend
+Sales = 560,777.3454 + (2.1296 × Marketing Spend) + error
 ```
 
 ### Business Interpretation
@@ -28,7 +28,7 @@ This model demonstrates that marketing investment has a positive impact on sales
 ### Regression Equation
 
 ```text
-Sales = 446,410.5829 + 35.6780 × Footfall
+Sales = 446,410.5829 + (35.6780 × Footfall) + error
 ```
 
 ### Business Interpretation
@@ -45,7 +45,7 @@ Among the simple regression models, footfall is the strongest predictor of sales
 ### Regression Equation
 
 ```text
-Sales = 484,814.2566 + 2,217.8319 × Inventory Availability (%)
+Sales = 484,814.2566 + (2,217.8319 × Inventory Availability (%)) + error
 ```
 
 ### Business Interpretation
@@ -64,10 +64,11 @@ Although inventory availability has a statistically significant positive relatio
 ```text
 Sales =
 135,188.3955
-+ 1.1765 × Marketing Spend
-+ 33.6906 × Footfall
-+ 2,919.7025 × Inventory Availability (%)
-+ 750.5427 × High Street Store Dummy
++ (1.1765 × Marketing Spend)
++ (33.6906 × Footfall)
++ (2,919.7025 × Inventory Availability (%))
++ (750.5427 × High Street Store Dummy)
++ error
 ```
 
 ---
